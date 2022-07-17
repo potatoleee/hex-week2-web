@@ -1,0 +1,127 @@
+@import'reset';
+
+$primary:#891818;
+$text-white:#FFFFFF;
+$spacer:1rem;
+img{
+    display: block;
+}
+body{
+    font-family: 'Roboto' ,-apple-system, BlinkMacSystemFont,  "PingFang TC", "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+    line-height: 1.5;
+}
+.container{
+    max-width: 1232px;
+    margin: 0 auto;
+    padding: 0px 16px ;
+}
+h1{
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 106px;
+    margin-bottom: 32px;
+}
+
+h2{
+    font-size: 64px;
+    line-height: 84px;
+}
+h3{
+    font-weight: 700;
+    font-size: 24px;
+}
+.text-24-bold{
+    font-size: 24px;
+    line-height: 32px;
+}
+.color-white{
+    color:$text-white;
+}
+.text-bold{
+    font-weight: 700;
+}
+.d-flex{
+    display: flex;
+}
+.mb-1{
+    margin-bottom: $spacer*.25;
+}
+.mb-2{
+    margin-bottom: $spacer*0.5;
+}
+.mb-3{
+    margin-bottom: $spacer;
+}
+.mb-4{
+    margin-bottom: $spacer*1.5;
+}
+.mb-5{
+    margin-bottom: $spacer*3;
+}
+.banner{
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    padding-bottom: 49.895833%;
+    background-position: center;
+    position: relative;
+    margin-bottom: 56px;
+}
+.founder{
+    margin-bottom: 40px;
+}
+.banner__text{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+
+    .social{
+        padding-left: 10px;
+        padding-right: 6px;
+        justify-content: space-between;
+    }
+}
+
+.about{
+    text-align: center;
+    
+    img{
+        margin: 0 auto;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        
+    }
+    .line{
+        width: 384px;
+        height: 1px;
+        background-color: #000;
+        margin: 0 auto;
+        margin-top: 24px;
+        margin-bottom: 28px;
+
+    }
+    .dot{
+        margin-bottom: 28px;
+        // position: relative;
+
+        // &::before{
+        //     content: "";
+        //     position: absolute;
+        //     width: 22px;
+        //     height: 22px;
+        //     background-color: $primary;
+        //     border-radius: 50%;
+        //     top: 50%;
+        //     transform: translateY(-50%);
+        //     left: 1px;
+
+        // }
+    }
+    .reddot{
+        width: 22px;
+        height: 22px;
+        background-color: $primary;
+        border-radius: 50%;
+    }
+}
