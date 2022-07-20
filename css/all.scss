@@ -149,7 +149,7 @@ h3{
         display: flex;
         align-items: center;
         justify-content: center;
-        // 這邊使用flex讓文字置中;並且偽元素內就不會飛很遠也不用用絕對定位
+        // 這邊使用flex讓文字置中;並且偽元素不會因為text-align-center:原因字佔滿整行，導致會飛很遠，也不用使用絕對定位。
         &::before{
             content: "";
             width: 22px;
