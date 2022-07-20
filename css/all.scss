@@ -144,33 +144,24 @@ h3{
         margin-bottom: 28px;
 
     }
-    .redDotText{
+    .redDot__text{
         margin-bottom: 28px;
+        display: flex;
         align-items: center;
         justify-content: center;
-        // position: relative;
+        // 這邊使用flex讓文字置中;並且偽元素內就不會飛很遠也不用用絕對定位
+        &::before{
+            content: "";
+            width: 22px;
+            height: 22px;
+            background-color: $primary;
+            border-radius: 50%;
+            margin-right: 16px;
 
-        // &::before{
-        //     content: "";
-        //     position: absolute;
-        //     width: 22px;
-        //     height: 22px;
-        //     background-color: $primary;
-        //     border-radius: 50%;
-        //     top: 50%;
-        //     left: -1px;(會飛很遠）
-        //     transform: translateY(-50%);
-            
+        }
+    }
+    
 
-        // }
-    }
-    .redDot__dot{
-        width: 22px;
-        height: 22px;
-        background-color: $primary;
-        border-radius: 50%;
-        margin-right: 16px;
-    }
 }
 // about end
 
