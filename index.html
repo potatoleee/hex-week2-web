@@ -15,9 +15,10 @@
 <body>
     <div class="banner">
         <div class="banner__text text-white">
-            <h3>Here’s</h3>
+            <p class="banner__here">Here’s<p>
             <h1>JOANNE</h1>
-            <h3 class="founder">Founder of “XXXD Official’’<br> & Graphic Designer</h3>
+            <!-- <h1><span>Here's</span>JOANNE</h1> -->
+            <p class="founder">Founder of “XXXD Official’’<br> & Graphic Designer</p>
             <ul class=" social d-flex">
                 <li><a href="#"><img src="images/behance.svg" alt=""></a></li>
                 <li><a href="#"><img src="images/facebook.svg" alt=""></a></li>
@@ -30,24 +31,32 @@
     <div class="about container">
         <h2>About</h2>
         <img src="images/photo.png" alt="">
-        <h3 class="mb-1">Joanne Chen</h3>
-        <h3 class="mb-2">1997/10/10</h3>
-        <h3 class="school">National Hex School Normal University<br>Department of Visual Design</h3>
+        <ul class="about__info">
+            <li class="mb-1">Joanne Chen</li>
+            <li class="mb-2">1997/10/10</li>
+            <li class="school">National Hex School Normal University<br>Department of Visual Design</li>
+        </ul>
         <div class="line"></div>
-
-        <h3 class="redDot__text">Founder of "XXXD Official"</h3>
-        <h3 class="redDot__text">Graphic Designer</h3> 
-        <h3 class="redDot__text">Graphic Intern of Hex School</h3>
-
+        <ul class="redDot">
+            <li class="redDot__text">Founder of "XXXD Official"</li>
+            <li class="redDot__text">Graphic Designer</li>
+            <li class="redDot__text">Graphic Intern of Hex School</li>
+        </ul>
+    </div>
     <div class="brand  text-white ">
         <h2 class="brand__title">My Brand "XXXD"</h2>
-        <p class="text-24-32 mb-5">Just Keep XXXD Everyday</p>
+        <h3 class="mb-5">Just Keep XXXD Everyday</h3>
         <p class="text-20 mb-68">2020 年創立的個人服飾品牌<br>引領叛逆少年開啟與社會對話的窗口<br>主打概念潮流T-Shirt</p>
-        <a href=""><img  class="brand-1"src="images/brand_img1.png" alt=""></a>
-        <div class="d-flex container justify-sb pb-160">
-            <a href="#"><img class="brand-2"src="images/brand_img2.png" alt=""></a>
-            <a href="#"><img src="images/brand_img3.png" alt=""></a>
-        </div>
+        <ul class="brand__img">
+            <li>
+                <a href="#"><img  class="brand-1"src="images/brand_img1.png" alt=""></a>
+            </li>
+            <li class="d-flex container justify-sb pb-160"> 
+                 <a href="#"><img class="brand-2"src="images/brand_img2.png" alt=""></a>
+                <a href="#"><img src="images/brand_img3.png" alt=""></a>
+            </li>
+        </ul>
+      
         
         
     </div>
@@ -77,7 +86,7 @@
             <p class=" works__img--text text-center">攝影創作/2018</p>
             </li>
             <li><a href=""><img src="images/work_img8.png" alt=""></a>
-            <p class=" works__img--text text-center">攝影創作/2018</p>
+            <p class=" works__img--text text-center">官網設計/2020</p>
             </li>
         </ul>
     </div>
@@ -87,5 +96,6 @@
         <h2 class="contact__title">Contact</h2>
         <p class="pb-3">Mail：<a href="mailto:xxxd@hexschool.com">xxxd@hexschool.com</a></p>
         <p class="pb-8">Phone Number：<a href="tel:+0910123456">0910123456</a></p>
+    </div>
 </body> 
 </html>

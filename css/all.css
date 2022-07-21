@@ -106,8 +106,9 @@ h3 {
   font-size: 20px;
 }
 
-.text-24 {
+.text-24-bold {
   font-size: 24px;
+  font-weight: 700;
 }
 
 .text-white {
@@ -181,14 +182,22 @@ h3 {
 .banner {
   background-image: url(../images/banner.png);
   background-size: cover;
-  padding-bottom: 49.895833%;
   background-position: center;
   position: relative;
   margin-bottom: 56px;
+  height: 100vh;
+}
+
+.banner__here {
+  font-size: 24px;
+  font-weight: 700;
 }
 
 .founder {
+  font-size: 24px;
   margin-bottom: 40px;
+  font-weight: 700;
+  font-style: italic;
 }
 
 .banner__text {
@@ -218,6 +227,11 @@ h3 {
   margin-bottom: 20px;
 }
 
+.about .about__info {
+  font-size: 24px;
+  font-weight: 700;
+}
+
 .about .line {
   width: 384px;
   height: 1px;
@@ -238,6 +252,8 @@ h3 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  font-size: 24px;
+  font-weight: 700;
 }
 
 .about .redDot__text::before {
@@ -301,5 +317,14 @@ h3 {
 .contact p {
   font-size: 24px;
   line-height: 33px;
+}
+
+.contact a {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.contact a:hover {
+  color: rgba(255, 255, 255, 0.5);
 }
 /*# sourceMappingURL=all.css.map */
